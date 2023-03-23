@@ -1,4 +1,6 @@
-POST https://sample-node-login-app-deploy.onrender.com/users
+### Registering a User
+
+POST http://localhost:3001/users
 Content-Type: application/json
 
 {   
@@ -7,4 +9,16 @@ Content-Type: application/json
     "password": "phani123",
     "gender": "Male",
     "location":"hyderabad"
-}s
+}
+
+
+### User Login
+
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{   
+    "username":"phani",
+    "password": "phani123"
+}

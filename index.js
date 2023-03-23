@@ -91,7 +91,7 @@ app.post("/users/", async (request, response) => {
        '${location}'  
       );`;
       await db.run(createUserQuery);
-      response.status(200).json({ success: true });
+      response.status(200).json({ success: "User Successfully Registered" });
     }
   } else {
     response.status(400);
