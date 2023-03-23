@@ -1,0 +1,28 @@
+###
+
+GET http://localhost:3000/books/
+Authorization: Bearer JWT_TOKEN
+
+###
+
+POST https://node-app-production-95b9.up.railway.app/users
+Content-Type: application/json
+
+{   
+    "name":"ravvefweewewtrqwul",
+    "username":"rahehejwrfuerewtyl123",
+    "password": "rahul@456",
+    "gender": "Male",
+    "location":"hyderabad"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul123",
+    "password": "rahul@456"
+}
