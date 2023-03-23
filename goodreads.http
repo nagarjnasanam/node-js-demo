@@ -4,9 +4,9 @@ POST http://localhost:3001/users
 Content-Type: application/json
 
 {   
-    "name":"phanim murari",
-    "username":"phani",
-    "password": "phani123",
+    "name":"phani m",
+    "username":"phani m",
+    "password": "phani123456",
     "gender": "Male",
     "location":"hyderabad"
 }
@@ -19,6 +19,6 @@ POST http://localhost:3001/login
 Content-Type: application/json
 
 {   
-    "username":"phani",
-    "password": "phani123"
+    "username":"phani m",
+    "password": "phani123456"
 }
